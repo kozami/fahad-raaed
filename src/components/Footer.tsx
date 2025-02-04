@@ -14,6 +14,10 @@ export const Footer = () => {
       horizontal="center"
       mobileDirection="column"
     >
+       <Text variant="body-default-s" onBackground="neutral-strong">
+          <Text onBackground="neutral-weak">© {currentYear} /</Text>
+          <Text paddingX="4">Fahad Raaed</Text>
+
       <Flex
         className={styles.mobile}
         maxWidth="m"
