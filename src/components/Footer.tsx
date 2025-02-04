@@ -27,7 +27,6 @@ export const Footer = () => {
           <Text onBackground="neutral-weak">© {currentYear} /</Text>
           <Text paddingX="4">Fahad Raaed</Text>
          
-        <Flex gap="16">
           {social.map(
             (item) =>
               item.link && (
